@@ -47,7 +47,9 @@ double power (double a, unsigned int b){
     return(a);
 }
 int main() {
-    double a=25, b=2;
+    double a, b;
+    cout <<"Enter: a, b"<< endl;
+    cin >> a >> b ;
     cout << "a+b=" << sum(a,b) << endl;
     cout << "a-b=" << subtraction(a,b) << endl;
     cout << "a/b=" << division(a,b) << endl;
