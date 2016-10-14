@@ -1,0 +1,6 @@
+language: C++   
+jdk:  
+ - oraclejdk7
+branches:  
+ only:
+ - master
